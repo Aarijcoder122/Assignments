@@ -1,0 +1,1134 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 5px;
+}
+
+p{
+    text-align: center;
+    font-size: 15px;
+}
+
+.box{
+    width: 90px;
+    height: 110px;
+    border: 2px solid black;
+    margin-left: 50px;
+}
+
+.hydrogenbox{
+    width: 90px;
+    height: 110px;
+    margin-left: 100px;
+    background-color: #aac77e;
+    border: 2px solid #aac77e;
+}
+
+.heliumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #e6afc7;
+    background-color: #e6afc7;
+    margin-left: 1555px;
+}
+
+.flex{
+    display: flex;
+}
+
+.atomicnumber{
+    margin-top: 2px;
+    padding-top: 0px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.symbol{
+    text-align: center;
+    margin-top: 0.1px;
+    padding-top: 0.1px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.elementname{
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 12px;
+}
+
+.atomicmass{
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 12px;
+}
+
+.lithiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #b82230;
+    background-color: #b82230;
+    margin-left: 100px;
+    margin-top: 3px;
+}
+
+.berylliumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #dfa535;
+    background-color: #dfa535;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.boronbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #f1ce37;
+    background-color: #f1ce37;
+    margin-left: 973px;
+    margin-top: 3px;
+}
+
+.carbonbox{
+    width: 90px;
+    height: 110px;
+    background-color: #aac77e;
+    border: 2px solid #aac77e;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.nitrogenbox{
+    width: 90px;
+    height: 110px;
+    background-color: #aac77e;
+    border: 2px solid #aac77e;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.oxygenbox{
+    width: 90px;
+    height: 110px;
+    background-color: #aac77e;
+    border: 2px solid #aac77e;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.flourinebox{
+    width: 90px;
+    height: 110px;
+    background-color: #aac77e;
+    border: 2px solid #aac77e;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.neonbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #e6afc7;
+    background-color: #e6afc7;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.sodiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #b82230;
+    background-color: #b82230;
+    margin-left: 100px;
+    margin-top: 3px;
+}
+
+.magnesiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #dfa535;
+    background-color: #dfa535;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.aluminiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #af97c5;
+    background-color: #af97c5;
+    margin-left: 973px;
+    margin-top: 3px;
+}
+
+.siliconbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #f1ce37;
+    background-color: #f1ce37;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.phosphorusbox{
+    width: 90px;
+    height: 110px;
+    margin-left: 3px;
+    background-color: #aac77e;
+    border: 2px solid #aac77e;
+    margin-top: 3px;
+}
+
+.sulphurbox{
+     width: 90px;
+    height: 110px;
+    margin-left: 3px;
+    margin-top: 3px;
+    background-color: #aac77e;
+    border: 2px solid #aac77e;
+}
+
+.chlorinebox{
+     width: 90px;
+    height: 110px;
+    background-color: #aac77e;
+    border: 2px solid #aac77e;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.argonbox{
+     width: 90px;
+    height: 110px;
+    border: 2px solid #e6afc7;
+    background-color: #e6afc7;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.potassiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #b82230;
+    background-color: #b82230;
+    margin-left: 100px;
+    margin-top: 3px;
+}
+
+.Calciumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #dfa535;
+    background-color: #dfa535;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.scandiumbox{
+     width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.titaniumbox{
+     width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.vanadiumbox{
+     width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.chromiumbox{
+     width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.manganesebox{
+     width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.ironbox{
+     width: 90px;
+    height: 110px;
+   border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.cobaltbox{
+     width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.nickelbox{
+     width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.copperbox{
+     width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.zincbox{
+     width: 90px;
+    height: 110px;
+    border: 2px solid #af97c5;
+    background-color: #af97c5;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.galliumbox{
+     width: 90px;
+    height: 110px;
+    border: 2px solid #af97c5;
+    background-color: #af97c5;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.germaniumbox{
+     width: 90px;
+    height: 110px;
+    border: 2px solid #f1ce37;
+    background-color: #f1ce37;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.arsenicbox{
+     width: 90px;
+    height: 110px;
+    border: 2px solid #f1ce37;
+    background-color: #f1ce37;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.seleniumbox{
+     width: 90px;
+    height: 110px;
+    background-color: #aac77e;
+    border: 2px solid #aac77e;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.brominebox{
+     width: 90px;
+    height: 110px;
+    background-color: #aac77e;
+    border: 2px solid #aac77e;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.kryptonbox{
+     width: 90px;
+    height: 110px;
+    border: 2px solid #e6afc7;
+    background-color: #e6afc7;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.rubidiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #b82230;
+    background-color: #b82230;
+    margin-left: 100px;
+    margin-top: 3px;
+}
+
+.strontiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #dfa535;
+    background-color: #dfa535;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.yttriumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.zirconiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.niobiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.molybdenumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.technetiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.rutheniumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.rhodiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.palladiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.silverbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.cadmiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #af97c5;
+    background-color: #af97c5;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.indiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #af97c5;
+    background-color: #af97c5;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.tinbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #af97c5;
+    background-color: #af97c5;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.antimonybox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #f1ce37;
+    background-color: #f1ce37;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.telluriumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #f1ce37;
+    background-color: #f1ce37;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.iodinebox{
+    width: 90px;
+    height: 110px;
+    background-color: #aac77e;
+    border: 2px solid #aac77e;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.xenonbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #e6afc7;
+    background-color: #e6afc7;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.caesiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #b82230;
+    background-color: #b82230;
+    margin-left: 100px;
+    margin-top: 3px;
+}
+
+.bariumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #dfa535;
+    background-color: #dfa535;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.lanthanidebox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #5896cc;
+    background-color: #5896cc;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.hafniumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.tantalumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.tungstenbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.rheniumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.osmiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.iridiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.platinumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.goldbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.mercurybox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #af97c5;
+    background-color: #af97c5;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.thalliumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #af97c5;
+    background-color: #af97c5;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.leadbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #af97c5;
+    background-color: #af97c5;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.bismuthbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #af97c5;
+    background-color: #af97c5;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.poloniumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #af97c5;
+    background-color: #af97c5;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.astatinebox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #f1ce37;
+    background-color: #f1ce37;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.radonbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #e6afc7;
+    background-color: #e6afc7;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.franciumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #b82230;
+    background-color: #b82230;
+    margin-left: 100px;
+    margin-top: 3px;
+}
+
+.radiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #dfa535;
+    background-color: #dfa535;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.actinidebox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #91c8a9;
+    background-color: #91c8a9;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.rutherfordiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.dubniumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.seaborgiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.bohriumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.hassiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #a3bce3;
+    background-color: #a3bce3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.meitneriumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #c3c3c3;
+    background-color: #c3c3c3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.darmstadtiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #c3c3c3;
+    background-color: #c3c3c3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.roentgeniumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #c3c3c3;
+    background-color: #c3c3c3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.coperniciumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #af97c5;
+    background-color: #af97c5;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.nihoniumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #c3c3c3;
+    background-color: #c3c3c3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.fleroviumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #c3c3c3;
+    background-color: #c3c3c3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.moscoviumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #c3c3c3;
+    background-color: #c3c3c3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.livermoriumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #c3c3c3;
+    background-color: #c3c3c3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.tennessinebox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #c3c3c3;
+    background-color: #c3c3c3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.oganessonbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #c3c3c3;
+    background-color: #c3c3c3;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.lanthanumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #5698d3;
+    background-color: #5698d3;
+    margin-left: 292px;
+    margin-top: 50px;
+}
+
+.ceriumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #5698d3;
+    background-color: #5698d3;
+    margin-left: 3px;
+    margin-top: 50px;
+}
+
+.praseodymiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #5698d3;
+    background-color: #5698d3;
+    margin-left: 3px;
+    margin-top: 50px;
+}
+
+.neodymiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #5698d3;
+    background-color: #5698d3;
+    margin-left: 3px;
+    margin-top: 50px;
+}
+
+.promethiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #5698d3;
+    background-color: #5698d3;
+    margin-left: 3px;
+    margin-top: 50px;
+}
+
+.samariumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #5698d3;
+    background-color: #5698d3;
+    margin-left: 3px;
+    margin-top: 50px;
+}
+
+.europiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #5698d3;
+    background-color: #5698d3;
+    margin-left: 3px;
+    margin-top: 50px;
+}
+
+.gadoliniumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #5698d3;
+    background-color: #5698d3;
+    margin-left: 3px;
+    margin-top: 50px;
+}
+
+.terbiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #5698d3;
+    background-color: #5698d3;
+    margin-left: 3px;
+    margin-top: 50px;
+}
+
+.dysprosiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #5698d3;
+    background-color: #5698d3;
+    margin-left: 3px;
+    margin-top: 50px;
+}
+
+.holmiunbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #5698d3;
+    background-color: #5698d3;
+    margin-left: 3px;
+    margin-top: 50px;
+}
+
+.erbiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #5698d3;
+    background-color: #5698d3;
+    margin-left: 3px;
+    margin-top: 50px;
+}
+
+.thuliumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #5698d3;
+    background-color: #5698d3;
+    margin-left: 3px;
+    margin-top: 50px;
+}
+
+.ytterbiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #5698d3;
+    background-color: #5698d3;
+    margin-left: 3px;
+    margin-top: 50px;
+}
+
+.lutetiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #5698d3;
+    background-color: #5698d3;
+    margin-left: 3px;
+    margin-top: 50px;
+}
+
+.actiniumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #8dc6a6;
+    background-color: #8dc6a6;
+    margin-left: 292px;
+    margin-top: 10px;
+}
+
+.thoriumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #8dc6a6;
+    background-color: #8dc6a6;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+
+.protactiniumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #8dc6a6;
+    background-color: #8dc6a6;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+
+.uraniumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #8dc6a6;
+    background-color: #8dc6a6;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+
+.neptuniumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #8dc6a6;
+    background-color: #8dc6a6;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+
+.plutoniumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #8dc6a6;
+    background-color: #8dc6a6;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+
+.americiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #8dc6a6;
+    background-color: #8dc6a6;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+
+.curiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #8dc6a6;
+    background-color: #8dc6a6;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+
+.berkeliumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #8dc6a6;
+    background-color: #8dc6a6;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+
+.californiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #8dc6a6;
+    background-color: #8dc6a6;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+
+.einsteiniumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #8dc6a6;
+    background-color: #8dc6a6;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+
+.fermiumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #8dc6a6;
+    background-color: #8dc6a6;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+
+.mendeleviumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #8dc6a6;
+    background-color: #8dc6a6;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+
+.nobeliumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #8dc6a6;
+    background-color: #8dc6a6;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+
+.lawrenciumbox{
+    width: 90px;
+    height: 110px;
+    border: 2px solid #8dc6a6;
+    background-color: #8dc6a6;
+    margin-left: 3px;
+    margin-top: 10px;
+}
