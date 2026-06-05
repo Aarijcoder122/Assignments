@@ -1,0 +1,649 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Helvetica;
+    background-color: #e3e6e6;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: #131921;
+}
+
+.amazonlogo{
+    width: 100px;
+    height: 38px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.amazonlogo:hover{
+    border: 1px solid white;
+}
+
+.locationicon{
+    color: white;
+    vertical-align: top;
+    margin-top: 25px;
+    padding-left: 20px;
+}
+
+.displayflexclass{
+    display: flex;
+    columns: row;
+}
+
+.displayflexvertical{
+    display: flex;
+    flex-direction: column;
+}
+
+.allbox{
+    width: 50px;
+    height: 40px;
+    background-color: #e6e6e6;
+    /* text-align: center; */
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    margin-top: 8px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.dropdownlist{
+    margin-top: 20px;
+    margin-left: 7px;
+    color: gray;
+}
+
+.inputbox{
+    width: 520px;
+    height: 40px;
+    background-color: white;
+    margin-top: 8px;
+    border: 2px solid white
+}
+
+.inputbox::placeholder{
+    margin-left: 3px;
+    word-spacing: 2px;
+    font-size: 15px;
+}
+
+.searchbox{
+    width: 50px;
+    height: 40px;
+    margin-top: 8px;
+    background-color: #febd69;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.searchicon{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.navbarlangbox{
+    color: white;
+    margin-left: 5px;
+    margin-top: 27px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.us_flag{
+    width: 20px;
+    height: 15px;
+    margin-top: 28px;
+    margin-left: 30px;
+    background:#131921
+}
+
+.langdropdownlist{
+    margin-left: 2px;
+    margin-top: 37px;
+    color: gray;
+}
+
+.accountdropdownlist{
+    margin-top: 36px;
+    color: gray;
+    margin-left: 5px;
+}
+
+.carticon{
+    color: white;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.sectionbox{
+    background-color: #232f3e;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Allsection{
+    color: white;
+    margin-top: 0px;
+    line-height: 0px;
+    font-weight: 600;
+    margin-left: 20px;
+    padding: 5px;
+    display: flex;
+}
+
+.Allsection:hover{
+    border: 1px solid white;
+}
+
+.allicon{
+    margin-top: 7px;
+    margin-left: 0px;
+    padding-right: 3px;
+}
+
+
+.dealssection{
+    color: white;
+    margin-left: 20px;
+    line-height: 0px;
+    font-weight: 400;
+    margin-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.dealssection:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.cardsection{
+    color: white;
+    margin-left: 20px;
+    line-height: 0px;
+    font-weight: 400;
+    margin-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.cardsection:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.sellsection{
+    color: white;
+    margin-left: 20px;
+    line-height: 0px;
+    font-weight: 400;
+    margin-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.sellsection:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.registrysection{
+    color: white;
+    margin-left: 20px;
+    line-height: 0px;
+    font-weight: 400;
+    margin-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.registrysection:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.primevideosection{
+    color: white;
+    margin-left: 20px;
+    line-height: 0px;
+    font-weight: 400;
+    margin-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.primevideosection:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.customerservicesection{
+    color: white;
+    margin-left: 20px;
+    line-height: 0px;
+    font-weight: 400;
+    margin-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.customerservicesection:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.mainimage{
+    width:100%;
+    height: 450px;
+}
+
+.box1{
+    width: 290px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 200px;
+    margin-left: 20px;
+}
+
+h2{
+    margin-left: 15px;
+    font-size: 19px;
+}
+
+.box1image{
+    width: 250px;
+    height: 290px;
+    margin-left: 15px;
+}
+
+.imagetext{
+    margin-top: 20px;
+    color: #2162a1;
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+.box2{
+     width: 290px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 200px;
+    margin-left: 330px;
+}
+
+.box21image{
+    width: 125px;
+    height: 116px;
+    margin-left: 15px;
+}
+
+.box22image{
+    width: 120px;
+    height: 115px;
+    margin-left: 10px;
+}
+
+.box3{
+     width: 290px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 200px;
+    margin-left: 640px;
+}
+
+.box4{
+    width: 290px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 200px;
+    margin-left: 950px;
+}
+
+.imagetext1{
+    font-size: 12px;
+    color: black;
+    margin-top: 2px;
+    margin-left: 15px;
+}
+
+.imagetext2{
+    font-size: 12px;
+    color: black;
+    margin-top: 2px;
+    margin-left: 45px;
+}
+
+.box23image{
+    width: 125px;
+    height: 116px;
+    margin-left: 15px;
+}
+
+.box24image{
+    width: 120px;
+    height: 115px;
+    margin-left: 10px;
+}
+
+.imagetext3{
+    font-size: 12px;
+    color: black;
+    margin-top: 2px;
+    margin-left: 15px;
+}
+
+.imagetext4{
+    font-size: 12px;
+    color: black;
+    margin-top: 2px;
+    margin-left: 45px;
+}
+
+.box5{
+     width: 290px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 620px;
+    margin-left: 20px;
+}
+
+.box6{
+    width: 290px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 620px;
+    margin-left: 330px;
+}
+
+.box7{
+    width: 290px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 620px;
+    margin-left: 640px;
+}
+
+.box8{
+    width: 290px;
+    height: 400px;
+    background-color:white ;
+    position: absolute;
+    top: 620px;
+    margin-left: 950px;
+}
+
+.box51image{
+    width: 255px;
+    height: 145px;
+    margin-left: 15px;
+}
+
+.imagetext51{
+    font-size: 15px;
+    color: black;
+    margin-top: 2px;
+    margin-left: 15px;
+}
+
+.box52image{
+    width: 80px;
+    height: 70px;
+    margin-left: 15px;
+}
+
+.box53image{
+    width: 80px;
+    height: 70px;
+    margin-left: 5px;
+}
+
+.box54image{
+    width: 80px;
+    height: 70px;
+    margin-left: 5px;
+}
+
+.imagetext52{
+    font-size: 13px;
+    color: black;
+    margin-top: 2px;
+    margin-left: 14px;
+}
+
+.imagetext53{
+    font-size: 13px;
+    color: black;
+    margin-top: 2px;
+    margin-left: 50px;
+}
+
+.imagetext54{
+    font-size: 13px;
+    color: black;
+    margin-top: 2px;
+    margin-left: 14px;
+}
+
+.home_kitchenbox{
+    width: 1220px;
+    height: 282px;
+    background-color: white;
+    margin-top: 95px;
+    position: absolute;
+    top: 950px;
+    margin-left: 20px;
+}
+
+.bedsheetimage{
+    width: 160px;
+    height: 200px;
+    margin-left: 20px;
+}
+
+.waterbottleimage{
+    width: 59px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.hangerimage{
+    width: 270px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+.photoframeimage{
+    width: 160px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.pipeimage{
+    width: 235px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.bedsheetimage2{
+    width: 160px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.sign_in_box{
+    width: 100%;
+    height: 190px;
+    background-color: white;
+    position: absolute;
+    top: 1350px;
+}
+
+.simpleline{
+    width: 100%;
+    background-color: #dddddd;
+    height: 1px;
+    margin-top: 20px;
+}
+
+.sign_in_box h2{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 70px;
+    line-height: 0px;
+}
+
+.sign_in_button{
+    background-color: #ffd814;
+    width: 200px;
+    height: 30px;
+    padding-top: 0px;
+    margin-top: 0px;
+    border-radius: 20px;
+    border: 2px solid #ffd814;
+    margin-left: 550px;
+}
+
+.sign_in_box p{
+    text-align: center;
+    font-size: 11px;
+    line-height: 0px;
+    margin-left: 40px;
+}
+
+.sign_in_box a{
+    color: #2162a1;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.topbox{
+    width: 100%;
+    height: 50px;
+    background-color: #37475A;
+    top: 1540px;
+    position: absolute;
+}
+
+.topbox p{
+    color: white;
+    text-align: center;
+    margin-left: 40px;
+    font-weight: 500;
+}
+
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: #232f3e;
+    position: absolute;
+    top: 1590px;
+}
+
+.footerbox1{
+    background-color: #232f3e ;
+    width: 250px;
+    height: auto;
+    margin-left: 120px;
+    padding-top: 0px;
+}
+
+.footerheading{
+    padding-top: 50px;
+    margin-top: 0px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+.footerbox1 p{
+    color: #dddddd;
+    font-size: 14px;
+    line-height: 12px;
+    word-spacing: 1px;
+}
+
+.footerbox1 .footerheading{
+    font-size: 16px;
+}
+
+.footerbox2{
+    background-color: #232f3e ;
+    width: 190px;
+    height: 300px;
+    margin-left: 17px;
+    padding-top: 0px;
+}
+
+.footerbox2 p{
+    color: #dddddd;
+    font-size: 14px;
+    line-height: 13px;
+    word-spacing: 1px;
+}
+
+.footerbox2 .footerheading{
+    font-size: 16px;
+}
+
+.footerbox3{
+     background-color: #232f3e;
+    width: 300px;
+    height: 300px;
+    margin-left: 90px;
+    padding-top: 0px;
+}
+
+.footerbox3 p{
+    color: #dddddd;
+    font-size: 14px;
+    line-height: 12px;
+    word-spacing: 1px;
+}
+
+.footerbox3 .footerheading{
+    font-size: 16px;
+}
+
+
+.footerbox4{
+    background-color: #232f3e;
+    width: 140px;
+    height: 300px;
+    margin-left: 30px;
+    padding-top: 0px;
+}
+
+.footerbox4 p{
+    color: #dddddd;
+    font-size: 14px;
+    line-height: 17px;
+    word-spacing: 1px;
+}
+
+.footerbox4 .footerheading{
+    font-size: 16px;
+}
+
+.footerline{
+    width: 100%;
+    height: 2px;
+    background-color: #3a4553;
+    margin-top: 100px;
+}
