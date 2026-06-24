@@ -1,0 +1,626 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(245 245 247);
+}
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+}
+
+.displayflexclass{
+    display: flex;
+}
+
+.applelogo{
+    width: 40px;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 130px;
+    cursor: pointer;
+}
+
+.navbar p{
+    font-size: 12px;
+    margin-left: 37px;
+    color: rgba(0, 0, 0, 0.717);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.magnifyingglasslogo{
+    width: 40px;
+    height: 40px;
+    margin-top: 18px;
+    margin-left: 30px;
+    color: rgba(0, 0, 0, 0.594);
+    cursor: pointer;
+}
+
+.cartlogo{
+     width: 40px;
+    height: 40px;
+    margin-top: 18px;
+    margin-left: 15px;
+    color: rgba(0, 0, 0, 0.594);
+    cursor: pointer;
+}
+
+.fathersdaybox{
+    background-image: url(fathers\ day\ image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    height: 600px;
+    width: 100%;
+}
+
+.fathersdaybox h1{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 50px;
+    line-height: 20px;
+}
+
+.fathersdaybox p{
+    text-align: center;
+    line-height: 5px;
+    font-size: 25px;
+}
+
+.shopbutton{
+    padding: 15px;
+    background-color: rgb(0 113 227);
+    border: rgb(0 113 227);
+    color: white;
+    margin-left: 580px;
+    border-radius: 40px;
+    width: 90px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.simpleline{
+    width: 100%;
+    height: 10px;
+    background-color: white;
+}
+
+.appleforcollegebox{
+    width: 100%;
+    height: 430px;
+}
+
+.appleforcollegebox h1{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 50px;
+    line-height: 20px;
+}
+
+.appleforcollegebox p{
+    text-align: center;
+    line-height: 5px;
+    font-size: 26px;
+}
+
+.learnmorebutton{
+    padding: 10px;
+    background-color: rgb(0 113 227);
+    border: rgb(0 113 227);
+    color: white;
+    margin-left: 560px;
+    border-radius: 40px;
+    width: 140px;
+    font-size: 18px;
+}
+
+.appleforcollgeboxpicture{
+    width: 100%;
+    height: auto;
+}
+
+.iphonebox{
+    width: 100%;
+    height: 410px;
+}
+
+.iphonebox h1{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 50px;
+    line-height: 20px;
+}
+
+.iphonebox p{
+    text-align: center;
+    line-height: 5px;
+    font-size: 26px;
+}
+
+.ShopiPhonebutton{
+    padding: 10px;
+    background-color: white;
+    border-color: rgb(0 113 227);
+    border-width: 1px;
+    color: rgb(0 113 227);
+    margin-left: 10px;
+    border-radius: 40px;
+    width: 140px;
+    font-size: 18px;
+}
+
+.iphonebox .learnmorebutton{
+    margin-left: 490px;
+}
+
+.iphoneimage{
+    width: 100%;
+    height: auto;
+}
+
+.whitebox{
+    width: 100%;
+    height: 1840px;
+    background-color: white;
+}
+
+.MacbookAirbox{
+    width: 49%;
+    height: 600px;
+    background-color: rgb(220 237 247);
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.MacbookAirbox h1{
+    text-align: center;
+    margin-top: 90px;
+    line-height: 0px;
+    font-size: 40px;
+}
+
+.MacbookAirbox p{
+    text-align: center;
+    line-height: 0px;
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.iPadAirbox{
+    width: 48.5%;
+    height: 600px;
+    background-color: rgb(175 220 238);
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.MacbookAirbox .learnmorebutton{
+    margin-left: 210px;
+    padding: 10px;
+    width: 100px;
+    font-size: 14px;
+}
+
+.buybutton{
+    padding: 10px;
+    background-color: rgb(220 237 247);
+    color: rgb(0 113 227);
+    border: 1px solid rgb(0 113 227);
+    margin-left: 15px;
+    border-radius: 40px;
+    width: 70px;
+    font-size: 14px;
+}
+
+.macbookimage{
+    height: 100%;
+    width: 100%;
+}
+
+.iPadAirbox h1{
+    text-align: center;
+    margin-top: 90px;
+    line-height: 0px;
+    font-size: 40px;
+}
+
+.iPadAirbox p{
+    text-align: center;
+    line-height: 0px;
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.iPadAirbox .learnmorebutton{
+    margin-left: 210px;
+    padding: 10px;
+    width: 100px;
+    font-size: 14px;
+}
+
+.iPadAirbox .buybutton{
+   background-color: rgb(175 220 238);
+}
+
+.ipadimage{
+    height: 100%;
+    width: 100%;
+}
+
+.macbookprobox{
+     width: 49%;
+    height: 600px;
+    background-color: rgb(0 0 0);
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.macbookprobox h1{
+    text-align: center;
+    margin-top: 90px;
+    line-height: 0px;
+    font-size: 40px;
+    color: white;
+}
+
+.macbookprobox p{
+    text-align: center;
+    line-height: 0px;
+    font-size: 23px;
+    margin-top: 10px;
+    color: white;
+}
+
+.Macbookprobox .learnmorebutton{
+    margin-left: 210px;
+    padding: 10px;
+    width: 100px;
+    font-size: 14px;
+}
+
+.Macbookprobox .buybutton{
+    background-color: black;
+}
+
+.applewatchbox{
+    background-color: rgb(245 245 247);
+    width: 48.5%;
+    height: 600px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.applewatchbox span{
+    font-weight: 200;
+    line-height: 0px;
+}
+
+.applewatchbox h1{
+    text-align: center;
+    margin-top: 90px;
+    line-height: 0px;
+    font-size: 35px;
+}
+
+.applewatchbox p{
+    text-align: center;
+    line-height: 0px;
+    font-size: 23px;
+    margin-top: 0px;
+}
+
+.applewatchbox .learnmorebutton{
+    margin-left: 210px;
+    padding: 10px;
+    width: 100px;
+    font-size: 14px;
+}
+
+.applewatchbox .buybutton{
+   background-color: rgb(245 245 247);
+}
+
+.applewatchbox .applelogo{
+    margin-left: 10px;
+    margin-top: 0px;
+    padding-top: 0px;
+    line-height: 0px;
+}
+
+.tradeinbox{
+     width: 49%;
+    height: 600px;
+    background-color: rgb(244 244 246);
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tradeinbox h1{
+    text-align: center;
+    margin-top: 90px;
+    line-height: 0px;
+    font-size: 40px;
+}
+
+.tradeinbox .applelogo{
+    margin-left: 0px;
+    margin-top: 0px;
+    line-height: 0px;
+    padding-bottom: 0px;
+}
+
+.tradeinbox p{
+    text-align: center;
+    font-size: 20px;
+    width: 220px;
+    margin-left: 200px;
+    line-height: 24px;
+    margin-top: 0px;
+}
+
+.estimatebutton{
+    padding: 10px;
+    background-color: rgb(0 113 227);
+    border: rgb(0 113 227);
+    color: white;
+    margin-left: 230px;
+    border-radius: 40px;
+    width: 150px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.cardbox{
+    background-color: rgb(245 245 247);
+    width: 48.5%;
+    height: 600px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardbox .applelogo{
+     margin-left: 0px;
+    margin-top: 0px;
+    line-height: 0px;
+    padding-bottom: 0px;
+}
+
+.cardbox h1{
+    text-align: center;
+    margin-top: 90px;
+    line-height: 0px;
+    font-size: 35px;
+}
+
+.cardbox p{
+    text-align: center;
+    font-size: 20px;
+    width: 300px;
+    margin-left: 170px;
+    line-height: 24px;
+    margin-top: 0px;
+}
+
+.cardbox .learnmorebutton{
+    background-color: rgb(0 113 227);
+    border: rgb(0 113 227);
+    color: white;
+    margin-left: 200px;
+    border-radius: 40px;
+    width: 110px;
+    font-weight: 300;
+    font-size: 15px;
+    padding: 0px;
+}
+
+.applybutton{
+    padding: 10px;
+    background-color: white;
+    color: rgb(0 113 227);
+    border: 1px solid rgb(0 113 227);
+    margin-left: 15px;
+    border-radius: 40px;
+    width: 100px;
+    font-size: 14px;
+}
+
+.endtext{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.endtext p{
+    font-size: 12px;
+    color: rgb(181 181 182);
+}
+
+.endtext .firstpara{
+    width: 900px;
+    margin-left: 5px;
+    line-height: 14px;
+}
+
+.endtext .secondpara{
+    width: 930px;
+    margin-left: 150px;
+    line-height: 14px;
+    margin-top: 0px;
+}
+
+.endtext .thirdpara{
+    width: 930px;
+    margin-left: 150px;
+    line-height: 14px;
+    margin-top: 0px;
+}
+
+.endtext .fourthpara{
+    width: 930px;
+    margin-left: 150px;
+    line-height: 14px;
+    margin-top: 0px;
+}
+
+.endtext .fifthpara{
+    width: 930px;
+    margin-left: 150px;
+    line-height: 14px;
+    margin-top: 0px;
+}
+
+.endtext a{
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.644);
+    cursor: pointer;
+}
+
+.endtext .sixthpara{
+    width: 930px;
+    margin-left: 150px;
+    line-height: 14px;
+    margin-top: 0px;
+}
+
+.endtext .seventhpara{
+    width: 930px;
+    margin-left: 150px;
+    line-height: 14px;
+    margin-top: 0px;
+}
+
+.endtextline{
+    width: 950px;
+    height: 1px;
+    background-color: rgb(181 181 182);
+    margin-left: 150px;
+    margin-top: 15px;
+}
+
+.footer .firstbox{
+    width: 200px;
+    height: 400px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.footer .secondbox{
+    width: 200px;
+    height: 400px;
+    margin-left: 0%;
+    margin-top: 10px;
+}
+
+.footer .thirdbox{
+    width: 200px;
+    height: 400px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.footer .fourthbox{
+    width: 200px;
+    height: 400px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.footer .fifthbox{
+    width: 200px;
+    height: 400px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.footer .firstbox h1{
+     font-size: 13px;
+}
+
+.footer .firstbox p{
+    font-size: 13px;
+    line-height: 14px;
+    color: gray;
+    cursor: pointer;
+}
+
+.footer .secondbox h1{
+     font-size: 13px;
+}
+
+.footer .secondbox p{
+    font-size: 13px;
+    line-height: 14px;
+    color: gray;
+    cursor: pointer;
+}
+
+.footer .thirdbox h1{
+     font-size: 13px;
+}
+
+.footer .thirdbox p{
+    font-size: 13px;
+    line-height: 14px;
+    color: gray;
+    cursor: pointer;
+}
+
+.footer .fourthbox h1{
+     font-size: 13px;
+}
+
+.footer .fourthbox p{
+    font-size: 13px;
+    line-height: 14px;
+    color: gray;
+    cursor: pointer;
+}
+
+.footer .fifthbox h1{
+     font-size: 13px;
+}
+
+.footer .fifthbox p{
+    font-size: 13px;
+    line-height: 14px;
+    color: gray;
+    cursor: pointer;
+}
+
+.footershoplink p{
+    color: gray;
+    font-size: 13px;
+    margin-top: 110px;
+    margin-left: 150px;
+}
+
+.footershoplink a{
+    color: rgb(7 106 205);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footerendtext p{
+    font-size: 13px;
+    color: gray;
+    margin-top: 30px;
+    cursor: pointer;
+}
