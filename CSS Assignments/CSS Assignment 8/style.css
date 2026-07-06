@@ -1,0 +1,2029 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.simpleline{
+    background-color: lightgray;
+    height: 0.1px;
+    width: 95%;
+    margin-top: 0px;
+    margin-left: 2.5%;
+    line-height: 0px;
+    padding-top: 0px;
+}
+
+.navbar{
+    background-color: white;
+}
+
+.saylanilogo{
+    width: 170px;
+    height: 44px;
+    margin-top: 10px;
+    margin-left: 30px;
+    line-height: 0px;
+    cursor: pointer;
+}
+
+.emailbox{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    cursor: pointer;
+}
+
+.emailbox:hover {
+    .envelopelogo{
+        color: #61bb46;
+    }
+}
+
+.emailbox:hover p{
+    color: #61bb46;
+}
+
+.displayflexclass{
+    display: flex;
+    flex-direction: row;
+}
+
+.envelopelogo{
+    color:gray;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+p{
+    color: gray;
+}
+
+.whatsappbox{
+    width: 130px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.whatsappbox:hover{
+    .whatsapplogo{
+        color: #61bb46;
+    }
+}
+
+.whatsappbox:hover p{
+    color: #61bb46;
+}
+
+
+.whatsapplogo{
+    color: gray;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.phonebox{
+    display: flex;
+    flex-direction: row;
+    width: 160px;
+    cursor: pointer;
+}
+
+.phonebox:hover{
+    .phonelogo{
+        color: #61bb46;
+    }
+}
+
+.phonebox:hover p{
+    color: #61bb46;
+}
+
+.phonelogo{
+    color:gray;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.globelogo{
+    color: gray;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.navbarlanguagelist{
+    margin-left: 24px;
+    margin-top: 26px;
+    font-size: 14px;
+    border: 0.1px solid lightgray;
+    border-radius: 20px;
+    width: 100px;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    height: 23px;
+    color: gray;
+    cursor: pointer;
+}
+
+.onenumber{
+    position: absolute;
+    top: 0px;
+    left: 910px;
+    background-color: #61bb46;
+    color: white;
+    border-radius: 80px;
+    width: 15px;
+    padding-left: 5px;
+}
+
+.cartlogo{
+    color: gray;
+    padding-top: 30px;
+    position: relative;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.userlogo{
+    color: white;
+    margin-top: 2px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.sponsorbutton{
+    background-color:#024d9a;
+    color: white;
+    font-weight: 700;
+    height: 40px;
+    width: 140px;
+    margin-top: 20px;
+    padding-top: 0px;
+    margin-left: 30px;
+    border-radius: 40px;
+    border: #024d9a;
+    cursor: pointer;
+}
+
+.donatebutton{
+    background-color: #61bb46;
+    color: white;
+    font-weight: 700;
+    height: 40px;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 40px;
+    border: #61bb46;
+    cursor: pointer;
+}
+
+.heartlogo{
+    color: white;
+    margin-left: 15px;
+}
+
+.sections{
+    margin-left: 70px;
+    color: gray;
+    font-size: 14px;
+}
+
+.homesection:hover {
+    color: #61bb46;
+    cursor: pointer;
+}
+
+.homesection{
+    margin-left: 150px;
+    margin-top: 25px;
+}
+
+.aboutsection{
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+.aboutsection:hover{
+     color: #61bb46;
+    cursor: pointer;
+}
+
+.dropdownlogo{
+    margin-left: 5px;
+    margin-top: 33px;
+}
+
+.dropdownlogo:hover{
+     color: #61bb46;
+    cursor: pointer;
+}
+
+.servicessection{
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+.servicessection:hover{
+     color: #61bb46;
+    cursor: pointer;
+}
+
+.mediasection{
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+.mediasection:hover{
+     color: #61bb46;
+    cursor: pointer;
+}
+
+.contactsection{
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+.contactsection:hover{
+     color: #61bb46;
+    cursor: pointer;
+}
+
+.banksection{
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+.banksection:hover{
+     color: #61bb46;
+    cursor: pointer;
+}
+
+.donorsection{
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+.donorsection:hover{
+     color: #61bb46;
+    cursor: pointer;
+}
+
+.sponsorsection{
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+.sponsorsection:hover{
+     color: #61bb46;
+    cursor: pointer;
+}
+
+.simpleline2{
+    background-color: lightgray;
+    height: 0.1px;
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 2.5%;
+    line-height: 0px;
+    padding-top: 0px;
+}
+
+.saylaniintroductionbox{
+    background-color: #f9fcf8;
+    display: flex;
+}
+
+.saylaniintroductionbox .box1{
+    width: 50%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.saylaniintroductionbox .box1 p{
+    color: #61bb46;
+    font-weight: bold;
+    background-color: #e9f5e5;
+    width: 280px;
+    height: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+.saylaniintroductionbox .box1 h1{
+    color: black;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.saylaniintroductionbox .box1 span{
+    color: #61bb46;
+}
+
+.saylaniintroductionbox .box1 .text{
+    color: gray;
+    width: 520px;
+    background-color: white;
+    padding: 0px;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 32px;
+    margin-top: 0px;
+}
+
+.saylaniintroductionbox .box2{
+    width: 50%;
+    height: 800px;
+}
+
+.introductionboximage{
+    width: 600px;
+    height: 560px;
+    margin-top: 20px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 28px;
+}
+
+.imagebox{
+    position: absolute;
+    width: 560px;
+    height: 130px;
+    background-color: white;
+    border-radius: 20px;
+    top: 560px;
+    left: 680px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.imagebox .displayflexclass{
+    flex-direction: column;
+}
+
+.imagebox h1{
+    color: #61bb46;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 0px;
+    margin-top: 40px;
+}
+
+.imagebox p{
+    color: black;
+    margin-top: 10px;
+    line-height: 0px;
+    font-weight: 800;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.imagebox span{
+    color: gray;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.starlogo{
+    color: orange;
+}
+
+.arrowuplogo{
+    color: white;
+    background-color: #61bb46;
+    margin-top: 30px;
+    margin-left: 230px;
+    padding: 20px;
+    height: 20px;
+    border-radius: 20px;
+    width: 40px;
+    padding-top: 40px;
+}
+
+.saylaniintroductionbox .box1 .donatebutton{
+    background-color: #61bb46;
+    color: white;
+    font-weight: 700;
+    height: 60px;
+    width: 220px;
+    margin-top: 150px;
+    margin-left: 0px;
+    border-radius: 40px;
+    border: #61bb46;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 20px;
+    
+}
+
+.learnmorebutton{
+    background-color: white;
+    color: #61bb46;
+    font-weight: 700;
+    height: 60px;
+    width: 210px;
+    margin-top: 150px;
+    margin-left: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 20px;
+    padding-top: 18px;
+    border: 1px solid gray;
+}
+
+.learnmorebutton:hover{
+    background-color: rgba(211, 211, 211, 0.473);
+}
+
+.liveappealssection{
+    height: 650px;
+    width: 100%;
+}
+
+.initatives{
+    color: #61bb46;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+    background-color: #d0fae5;
+    width: 150px;
+    height: 15px;
+    margin-left: 550px;
+    padding: 10px;
+    padding-top: 7px;
+    border-radius: 20px;
+}
+
+.liveappealssection h1{
+    margin-left: 470px;
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.liveappealssection span{
+    color: #61bb46;
+}
+
+.liveappealssection .box1{
+    width: 300px;
+    height: 400px;
+    margin-left: 0px;
+}
+
+.welfareimage{
+    width: 300px;
+    height: 260px;
+    margin-left: 0px;
+}
+
+.liveappealssection .box1 h1{
+    margin-left: 20px;
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.liveappealssection .box1 p{
+    margin-left: 20px;
+    width: 240px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.donatetext{
+    color: #61bb46;
+    margin-top: 40px;
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.rightarrowlogo{
+    color: #61bb46;
+    margin-left: 0px;
+    width: 0px;
+}
+
+
+.liveappealssection .box2{
+    width: 300px;
+    height: 400px;
+    margin-left: 20px;
+}
+
+.fitraimage{
+    width: 300px;
+    height: 260px;
+    margin-left: 0px;
+    background-color: white;
+}
+
+.liveappealssection .box2 h1{
+    margin-left: 0px;
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.liveappealssection .box2 p{
+    margin-left: 0px;
+    width: 275px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.liveappealssection .box2 .donatetext{
+    margin-left: 0px;
+}
+
+.liveappealssection .box3{
+    width: 300px;
+    height: 400px;
+    margin-left: 15px;
+}
+
+.sadqahimage{
+    width: 300px;
+    height: 260px;
+    margin-left: 10px;
+    background-color: white;
+}
+
+.liveappealssection .box3 h1{
+    margin-left: 10px;
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.liveappealssection .box3 p{
+    margin-left: 10px;
+    width: 275px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.liveappealssection .box3 .donatetext{
+    margin-left: 10px;
+}
+
+.liveappealssection .box4{
+    width: 300px;
+    height: 400px;
+    margin-left: 15px;
+}
+
+.medicalimage{
+    width: 300px;
+    height: 260px;
+    margin-left: 10px;
+    background-color: white;
+}
+
+.liveappealssection .box4 h1{
+    margin-left: 10px;
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.liveappealssection .box4 p{
+    margin-left: 10px;
+    width: 275px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.liveappealssection .box4 .donatetext{
+    margin-left: 10px;
+}
+
+.span{
+    color: #61bb46;
+}
+
+.quickdonatebox{
+    width: 100%;
+    height: 720px;
+}
+
+.quickdonatebox h1{    
+    margin-left: 470px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 120px;
+}
+
+.quickdonatebox span{
+    color: #61bb46;
+}
+
+.quickdonatebox p{
+    font-size: 20px;
+    margin-left: 420px;
+    line-height: 0px;
+    margin-top: 0px;
+}
+
+.quickdonatesections{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.generalsection{
+    margin-left: 330px;
+    color: white;
+    background-color: #61bb46;
+    width: 65px;
+    padding: 20px;
+    border-radius: 20px;
+    padding-top: 10px;
+    height: 10px;
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+.foodsection{
+    margin-left: 10px;
+    color: black;
+    width: 90px;
+    padding: 20px;
+    border-radius: 20px;
+    padding-top: 10px;
+    height: 10px;
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+.foodsection:hover{
+    background-color: lightgray;
+}
+
+.medicalsection{
+     margin-left: 10px;
+    color: black;
+    width: 65px;
+    padding: 20px;
+    border-radius: 20px;
+    padding-top: 10px;
+    height: 10px;
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+.medicalsection:hover{
+    background-color: lightgray;
+}
+
+.welfaresection{
+     margin-left: 10px;
+    color: black;
+    width: 65px;
+    padding: 20px;
+    border-radius: 20px;
+    padding-top: 10px;
+    height: 10px;
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+.welfaresection:hover{
+    background-color: lightgray;
+}
+
+.educationsection{
+    margin-left: 10px;
+    color: black;
+    width: 65px;
+    padding: 20px;
+    border-radius: 20px;
+    padding-top: 10px;
+    height: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.educationsection:hover{
+    background-color: lightgray;
+}
+
+.sadaqahandfitra_image{
+    width: 1200px;
+    height: 350px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.quickdonatebox .donatebutton{
+    font-size: 18px;
+    padding-left: 0px;
+    background-color: #61bb46;
+    color: white;
+    font-weight: 700;
+    height: 45px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 530px;
+    border-radius: 40px;
+    border: #61bb46;
+    cursor: pointer;
+    padding-left: 0px;
+}
+
+.rightdropdownlogo{
+    color: white;
+    padding-left: 10px;
+}
+
+.impactbox{
+    width: 100%;
+    height: 750px;
+    background-color: #42A922;
+}
+
+.impactbox h1{
+    text-align: center;
+    margin-left: 70px;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 90px;
+    line-height: 20px;
+}
+
+.impactbox p{
+    color: white;
+    margin-left: 400px;
+    font-size: 20px;
+    margin-top: 0px;
+    font-weight: 500;
+    line-height: 10px;
+    padding-top: 0px;
+}
+
+.impactbox .box1{
+    background-color: #55B539;
+    border: 1px solid white;
+    width: 290px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+
+.stethoscopelogo{
+    color: white;
+    margin-left: 100px;
+    margin-top: 30px;
+    background-color: #77C260;
+    width: 80px;
+    height: 40px;
+    padding-top: 40px;
+    border-radius: 20px;
+    line-height: 0px;
+}
+
+.impactbox .box1 h1{
+    color: white;
+    font-weight: 800;
+    font-size: 37px;
+    margin-left: 0px;
+    margin-top: 0px;
+    line-height: 0px;
+    padding-top: 40px;
+}
+
+.impactbox .box1 .firsttext{
+    color: E7F9EA;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 16px;
+    line-height: 0px;
+    font-weight: bold;
+}
+
+.impactbox .box1 .secondtext{
+    color: E7F9EA;
+    margin-top: 0px;
+    margin-left: 70px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 5px;
+    font-weight: bold;
+}
+
+
+.impactbox .box2{
+    background-color: #55B539;
+    border: 1px solid white;
+    width: 290px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+
+.foodlogo{
+    color: white;
+    margin-left: 100px;
+    margin-top: 30px;
+    background-color: #77C260;
+    width: 80px;
+    height: 40px;
+    padding-top: 40px;
+    border-radius: 20px;
+    line-height: 0px;
+}
+
+.impactbox .box2 h1{
+    color: white;
+    font-weight: 800;
+    font-size: 37px;
+    margin-left: 0px;
+    margin-top: 0px;
+    line-height: 0px;
+    padding-top: 40px;
+}
+
+.impactbox .box2 .firsttext{
+    color: E7F9EA;
+    margin-top: 40px;
+    margin-left: 80px;
+    font-size: 16px;
+    line-height: 0px;
+    font-weight: bold;
+}
+
+.impactbox .box3{
+    background-color: #55B539;
+    border: 1px solid white;
+    width: 290px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+
+.childlogo{
+    color: white;
+    margin-left: 100px;
+    margin-top: 30px;
+    background-color: #77C260;
+    width: 80px;
+    height: 40px;
+    padding-top: 40px;
+    border-radius: 20px;
+    line-height: 0px;
+}
+
+.impactbox .box3 h1{
+    color: white;
+    font-weight: 800;
+    font-size: 37px;
+    margin-left: 0px;
+    margin-top: 0px;
+    line-height: 0px;
+    padding-top: 40px;
+}
+
+.impactbox .box3 .firsttext{
+    color: #E7F9EA;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 16px;
+    line-height: 0px;
+    font-weight: bold;
+}
+
+.impactbox .box3 .secondtext{
+    color: #E7F9EA;
+    margin-top: 0px;
+    margin-left: 120px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 5px;
+    font-weight: bold;
+}
+
+
+.impactbox .box4{
+    background-color: #55B539;
+    border: 1px solid white;
+    width: 290px;
+    height: 250px;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+
+.educationlogo{
+    color: white;
+    margin-left: 100px;
+    margin-top: 30px;
+    background-color: #77C260;
+    width: 80px;
+    height: 40px;
+    padding-top: 40px;
+    border-radius: 20px;
+    line-height: 0px;
+}
+
+.impactbox .box4 h1{
+    color: white;
+    font-weight: 800;
+    font-size: 37px;
+    margin-left: 0px;
+    margin-top: 0px;
+    line-height: 0px;
+    padding-top: 40px;
+}
+
+.impactbox .box4 .firsttext{
+    color: #E7F9EA;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 16px;
+    line-height: 0px;
+    font-weight: bold;
+}
+
+.impactbox .text{
+    color: white;
+    margin-top: 70px;
+    font-weight: 500;
+    margin-left: 250px;
+    font-size: 28px;
+}
+
+.changebutton{
+    width: 210px;
+    height: 15px;
+    border-radius: 40px;
+    background-color: white;
+    color: #61BB46;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-left: 500px;
+    padding: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.impactbox .rightdropdownlogo{
+    color: #61BB46;
+    padding-top: 10px;
+}
+
+.saylaniacheivementsbox{
+    width: 100%;
+    height: 990px;
+    background-color: #F9FAFB;
+}
+
+.saylaniacheivementsbox .initatives{
+    color: #4CAF50;
+    text-align: center;
+    margin-top: 70px;
+    font-weight: bold;
+    background-color: #E8F5E9;
+    width: 110px;
+    height: 15px;
+    margin-left: 570px;
+    padding: 10px;
+    padding-top: 7px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.saylaniacheivementsbox h1{
+    font-size: 46px;
+    margin-left: 400px;
+    font-weight: 800;
+    margin-top: 40px;
+    padding-top: 0px;
+    line-height: 0px;
+}
+
+.saylaniacheivementsbox span{
+    color: #42A922;
+}
+
+.saylaniacheivementsbox .firsttext{
+    color: #6A7282;
+    margin-top: 40px;
+    margin-left: 270px;
+    font-size: 18px;
+    line-height: 0px;
+    margin-top: 60px;
+}
+
+.saylaniacheivementsbox .secondtext{
+    color: #6A7282;
+    margin-top: 40px;
+    margin-left: 330px;
+    font-size: 18px;
+    line-height: 0px;
+    margin-top: 30px;
+}
+
+.acheivementsection{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+}
+
+.acheivementsection .allsection{
+    margin-left: 350px;
+    color: white;
+    background-color: #42A922;
+    width: 40px;
+    padding: 20px;
+    border-radius: 40px;
+    padding-top: 10px;
+    height: 15px;
+    padding-left: 35px;
+    font-weight: bold;
+    margin-top: 55px;
+    padding-top: 15px;
+}
+
+.acheivementsection .medicalsection{
+    margin-left: 20px;
+    color: #6A7282;
+    width: 65px;
+    padding: 20px;
+    border-radius: 40px;
+    padding-top: 14px;
+    height: 13px;
+    padding-left: 30px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 55px;
+}
+
+.acheivementsection .welfaresection{
+    margin-left: 20px;
+    color: #6A7282;
+    width: 65px;
+    padding: 20px;
+    border-radius: 40px;
+    padding-top: 14px;
+    height: 13px;
+    padding-left: 30px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 55px;
+}
+
+.acheivementsection .educationsection{
+    margin-left: 20px;
+    color: #6A7282;
+    width: 80px;
+    padding: 20px;
+    border-radius: 40px;
+    padding-top: 14px;
+    height: 13px;
+    padding-left: 30px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 55px;
+}
+
+.saylaniacheivementsbox .img1{
+    width: 1200px;
+    height: 280px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.saylaniacheivementsbox .img2{
+    width: 1200px;
+    height: 280px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.testimonialsbox{
+    width: 100%;
+    height: 770px;
+    background-color: white;
+}
+
+.testimonial{
+    color: #61BB46;
+    text-align: center;
+    margin-top: 80px;
+    font-weight: 700;
+    background-color: #D0FAE5;
+    width: 160px;
+    height: 14px;
+    margin-left: 550px;
+    padding: 10px;
+    padding-top: 7px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.testimonialsbox h1{
+    font-size: 46px;
+    margin-left: 440px;
+    font-weight: 800;
+    margin-top: 40px;
+    padding-top: 0px;
+    line-height: 0px;
+}
+
+.testimonialsbox span{
+    color: #61BB46;
+}
+
+.testimonialsbox .firsttext{
+    color: #6A7282;
+    margin-top: 40px;
+    margin-left: 350px;
+    font-size: 20px;
+    line-height: 0px;
+    margin-top: 60px;
+}
+
+.testimonialsbox .secondtext{
+    color: #6A7282;
+    margin-top: 40px;
+    margin-left: 500px;
+    font-size: 18px;
+    line-height: 0px;
+    margin-top: 30px;
+}
+
+.testimonialsbox .box1{
+    width: 44%;
+    height: 400px;
+    background-color: white;
+    border: 1.5px solid #E5E5E5;
+    margin-left: 70px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.testimonialsbox .box1 .box1navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.testimonialsbox img{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.testimonialsbox .box1 h1{
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: 0px;
+    margin-top: 40px;
+}
+
+.testimonialsbox .box1 p{
+    line-height: 0px;
+    font-size: 13px;
+    color: black;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.testimonialsbox .box1 .commalogo{
+    color: gray;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.testimonialsbox .box1 .time{
+    margin-left: 120px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+.testimonialsbox .box1 .simpleline{
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 25px;
+}
+
+.testimonialsbox .box1 .text{
+    color: #4A5565;
+    margin-top: 30px;
+    line-height: 25px;
+    font-size: 18px;    
+    margin-left: 22px;
+    width: 512px;
+}
+
+.testimonialsbox .box2{
+    width: 44%;
+    height: 400px;
+    background-color: white;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+    border: 1.5px solid #E5E5E5;
+}
+
+.displayflexcolumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.starlogo{
+    color: #FFB900;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
+.testimonialsbox .box2 .box2navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.testimonialsbox img{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.testimonialsbox .box2 h1{
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: 0px;
+    margin-top: 40px;
+}
+
+.testimonialsbox .box2 p{
+    line-height: 0px;
+    font-size: 13px;
+    color: black;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.testimonialsbox .box2 .commalogo{
+    color: gray;
+    margin-left: 130px;
+    margin-top: 40px;
+}
+
+.testimonialsbox .box2 .time{
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+.testimonialsbox .box2 .simpleline{
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 25px;
+}
+
+.testimonialsbox .box2 .text{
+    color: #4A5565;
+    margin-top: 30px;
+    line-height: 25px;
+    font-size: 18px;    
+    margin-left: 22px;
+    width: 512px;
+}
+
+.blogsbox{
+    width: 100%;
+    background-color: white;
+    height: 720px;
+}
+
+.blogsbox .initatives{
+    background-color: #EFF8EC;
+    font-weight: bolder;
+    color: #61bb46;
+    text-align: center;
+    margin-top: 100px;
+    width: 150px;
+    height: 15px;
+    margin-left: 550px;
+    padding: 10px;
+    padding-top: 7px;
+    border-radius: 20px;
+}
+
+.blogsbox h1{
+    font-size: 46px;
+    margin-left: 520px;
+    font-weight: 800;
+    margin-top: 40px;
+    padding-top: 0px;
+    line-height: 0px;
+}
+
+.blogsbox span{
+    color: #42A922;
+}
+
+.blogsbox .firsttext{
+     color: #6A7282;
+    margin-top: 40px;
+    margin-left: 350px;
+    font-size: 19px;
+    line-height: 0px;
+    margin-top: 60px;
+}
+
+.blogsbox .box1 {
+    margin-top: 40px;
+}
+
+.blogsbox .box2 {
+    margin-top: 40px;
+}
+
+.blogsbox .box3 {
+    margin-top: 40px;
+}
+
+.blogsbox .box4 {
+    margin-top: 40px;
+}
+
+.blogsbox .box1{
+    background-color: white;
+    width: 295px;
+    height: 430px;
+    margin-left: 10px;
+}
+
+.blogsbox .box1 img{
+    width: 300px;
+    height: 230px;
+}
+
+.blogsbox .box1 h1{
+    font-size: 20px;
+    color: black;
+    margin-left: 0px;
+    width: 290px;
+    line-height: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-weight: 800;
+}
+
+.blogsbox .box1 .text{
+    width: 295px;
+}
+
+.clocklogo{
+    color: #6A7282;
+}
+
+.blogsbox .box2{
+    background-color: white;
+    width: 295px;
+    height: 430px;
+    margin-left: 15px;
+}
+
+.blogsbox .box2 img{
+    width: 300px;
+    height: 230px;
+}
+
+.blogsbox .box2 h1{
+    font-size: 19px;
+    color: black;
+    margin-left: 0px;
+    width: 306px;
+    line-height: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-weight: 800;
+}
+
+.blogsbox .box2 .text{
+    width: 310px;
+}
+
+.blogsbox .box3{
+    background-color: white;
+    width: 295px;
+    height: 430px;
+    margin-left: 15px;
+}
+
+.blogsbox .box3 img{
+    width: 300px;
+    height: 230px;
+}
+
+.blogsbox .box3 h1{
+    font-size: 19px;
+    color: black;
+    margin-left: 0px;
+    width: 306px;
+    line-height: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-weight: 800;
+}
+
+.blogsbox .box3 .text{
+    width: 310px;
+}
+
+.blogsbox .box4{
+    background-color: white;
+    width: 295px;
+    height: 430px;
+    margin-left: 15px;
+}
+
+.blogsbox .box4 img{
+    width: 300px;
+    height: 230px;
+}
+
+.blogsbox .box4 h1{
+    font-size: 19px;
+    color: black;
+    margin-left: 0px;
+    width: 306px;
+    line-height: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-weight: 800;
+}
+
+.blogsbox .box4 .text{
+    width: 310px;
+}
+
+.seemorebutton{
+    background-color: #61bb46;
+    color: white;
+    font-weight: 800;
+    height: 40px;
+    width: 150px;
+    margin-left: 540px;
+    border-radius: 40px;
+    border: #61bb46;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.seemorebutton .rightdropdownlogo{
+    padding-left: 5px;
+    padding-top: 8px;
+}
+
+.updatebox{
+    background-color: white;
+    width: 100%;
+    height: 750px;
+}
+
+.updatebox .initatives {
+    background-color: #EFF8EC;
+    font-weight: 700;
+    color: #61bb46;
+    text-align: center;
+    margin-top: 100px;
+    width: 150px;
+    height: 15px;
+    margin-left: 540px;
+    padding: 10px;
+    padding-top: 7px;
+    border-radius: 20px;
+}
+
+.updatebox h1{
+     font-size: 46px;
+    margin-left: 430px;
+    font-weight: 800;
+    margin-top: 40px;
+    padding-top: 0px;
+    line-height: 0px;
+}
+
+span{
+    color: #61BB46;
+}
+
+.updatebox .firsttext{
+    margin-left: 335px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.updatebox .secondtext{
+    margin-left: 470px;
+    margin-top: 0px;
+    font-size: 20px;
+    line-height: 0px;
+}
+
+.updatebox .box1{
+    width: 300px;
+    background-color: white;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+.updatebox .box1 img{
+    width: 300px;
+    height: 240px;
+
+}
+
+.updatebox .box1 h1{
+    font-size: 20px;
+    color: black;
+    margin-left: 0px;
+    width: 310px;
+    line-height: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-weight: 800;
+}
+
+.updatebox .box2{
+    width: 300px;
+    background-color: white;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+.updatebox .box2 img{
+    width: 300px;
+    height: 240px;
+
+}
+
+.updatebox .box2 h1{
+    font-size: 20px;
+    color: black;
+    margin-left: 0px;
+    width: 310px;
+    line-height: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-weight: 800;
+}
+
+.updatebox .box3{
+    width: 300px;
+    background-color: white;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+.updatebox .box3 img{
+    width: 300px;
+    height: 240px;
+
+}
+
+.updatebox .box3 h1{
+    font-size: 20px;
+    color: black;
+    margin-left: 0px;
+    width: 310px;
+    line-height: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-weight: 800;
+}
+
+.newsbox{
+    background-color: white;
+    width: 100%;
+    height: 740px;
+}
+
+.newsbox .initatives{
+    background-color: #EFF8EC;
+    font-weight: 700;
+    color: #61bb46;
+    text-align: center;
+    margin-top: 100px;
+    width: 130px;
+    height: 10px;
+    margin-left: 540px;
+    padding: 15px;
+    padding-top: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+
+}
+
+.newsbox h1{
+     font-size: 46px;
+    margin-left: 470px;
+    font-weight: 800;
+    margin-top: 40px;
+    padding-top: 0px;
+    line-height: 0px;
+}
+
+span{
+    color: #61BB46;
+}
+
+.newsbox .firsttext{
+     margin-left: 300px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.newsbox .box1{
+    width: 300px;
+    background-color: white;
+    height: 400px;
+    margin-left: 13px;
+    margin-top: 60px;
+}
+
+.newsbox .box1 img{
+    width: 300px;
+    height: 240px;
+}
+
+.newsbox .box1 h1{
+    font-size: 20px;
+    color: black;
+    margin-left: 0px;
+    width: 310px;
+    line-height: 24px;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-weight: 800;
+}
+
+.newsbox .box2{
+    width: 300px;
+    background-color: white;
+    height: 400px;
+    margin-left: 13px;
+    margin-top: 60px;
+}
+
+.newsbox .box2 img{
+    width: 300px;
+    height: 240px;
+}
+
+.newsbox .box2 h1{
+    font-size: 20px;
+    color: black;
+    margin-left: 0px;
+    width: 310px;
+    line-height: 24px;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-weight: 800;
+}
+
+.newsbox .box3{
+    width: 300px;
+    background-color: white;
+    height: 400px;
+    margin-left: 13px;
+    margin-top: 60px;
+}
+
+.newsbox .box3 img{
+    width: 300px;
+    height: 240px;
+}
+
+.newsbox .box3 h1{
+    font-size: 20px;
+    color: black;
+    margin-left: 0px;
+    width: 310px;
+    line-height: 24px;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-weight: 800;
+}
+
+.newsbox .box4{
+    width: 300px;
+    background-color: white;
+    height: 400px;
+    margin-left: 13px;
+    margin-top: 60px;
+}
+
+.newsbox .box4 img{
+    width: 300px;
+    height: 240px;
+}
+
+.newsbox .box4 h1{
+    font-size: 20px;
+    color: black;
+    margin-left: 0px;
+    width: 310px;
+    line-height: 24px;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-weight: 800;
+}
+
+.subscribebox{
+    background-color: #54B737;
+    width: 100%;
+    height: 380px;
+}
+
+.subscribebox h1{
+    margin-left: 400px;
+    color: white;
+    font-size: 36px;
+    padding-top: 80px;
+    font-weight: bold;
+}
+
+.subscribebox .firsttext{
+    color: white;
+    margin-left: 310px;
+    font-size: 18px;
+    margin-top: 0px;
+    line-height: 0px;
+    padding-top: 0px;
+}
+
+.subscribebox .secondtext{
+    color: white;
+    margin-left: 550px;
+    font-size: 18px;
+    margin-top: 0px;
+    line-height: 20px;
+    padding-top: 0px;
+}
+
+.emaillogo{
+    color: white;
+    margin-left: 390px;
+    margin-top: 50px;
+}
+
+.email{
+    color: #D7EFCF;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.subscribebutton{
+    width: 140px;
+    height: 17px;
+    border-radius: 40px;
+    background-color: white;
+    color: #61BB46;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-left: 150px;
+    padding: 20px;
+    padding-top: 17px;
+    font-size: 18px;
+}
+
+.subscribebox .rightdropdownlogo{
+    color: #61BB46;
+}
+
+.subscribebox .simpleline{
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 380px;
+}
+
+.footer{
+    background-color: #192230;
+    width: 100%;
+    height: 600px;
+}
+
+.footer .box1{
+    width: 300px;
+    height: 500px;
+    margin-left: 10px;
+}
+
+.footer .box1 .saylanilogo{
+    width: 170px;
+    height: 44px;
+    margin-top: 70px;
+    margin-left: 0px;
+    line-height: 0px;
+    cursor: pointer;
+}
+
+.footer .box1 p{
+    font-size: 16px;
+    margin-top: 30px;
+    color: #99A1AB;
+    width: 270px;
+    line-height: 24px;
+}
+
+.footer .box2{
+    width: 300px;
+    height: 500px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .box2 h3{
+    color: white;
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.footer .box2 p{
+    margin-left: 40px;
+    line-height: 2px;
+    color: #D1D5DC;
+    font-size: 15px;
+}
+
+.footer .box3{
+    width: 300px;
+    height: 500px;
+    margin-left: 10px;
+}
+
+.footer .box3 h3{
+    color: white;
+    margin-left: 0px;
+    margin-top: 60px;
+}
+
+.footer .box3 p{
+    margin-left: 0px;
+    line-height: 18px;
+    color: #D1D5DC;
+    font-size: 15px;
+}
+
+.footer .box4{
+    width: 300px;
+    height: 500px;
+    margin-left: 20px;
+}
+
+.footer .box4 h3{
+     color: white;
+    margin-left: 0px;
+    margin-top: 60px;
+}
+
+.footer .box4 p{
+    margin-top: 5px;
+    margin-left: 15px;
+    color: #D1D5DC;
+    font-size: 15px;
+}
+
+.footer .box4 .envelopelogo{
+    color: #D1D5DC;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+.footer .box4 .phonelogo{
+    color: #D1D5DC;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+
+.facebooklogo{
+    color: #131B2E;
+    background-color: white;
+    height: 20px;
+    padding: 4px;
+    padding-top: 5px;
+    border-radius: 5px;
+    width: 20px;
+}
+
+.twitterlogo{
+    color: #131B2E;
+    background-color: white;
+    height: 20px;
+    padding: 4px;
+    padding-top: 5px;
+    border-radius: 5px;
+    width: 20px;
+    margin-left: 8px;
+}
+
+.youtubelogo{
+    color: #131B2E;
+    background-color: white;
+    height: 20px;
+    padding: 4px;
+    padding-top: 5px;
+    border-radius: 5px;
+    width: 20px;
+    margin-left: 8px;
+}
+
+.instagramlogo{
+    color: #131B2E;
+    background-color: white;
+    height: 20px;
+    padding: 4px;
+    padding-top: 5px;
+    border-radius: 5px;
+    width: 20px;
+    margin-left: 8px;
+}
+
+.linkedinlogo{
+    color: #131B2E;
+    background-color: white;
+    height: 20px;
+    padding: 4px;
+    padding-top: 5px;
+    border-radius: 5px;
+    width: 20px;
+    margin-left: 8px;
+}
+
+.tiktoklogo{
+    color: #131B2E;
+    background-color: white;
+    height: 20px;
+    padding: 4px;
+    padding-top: 5px;
+    border-radius: 5px;
+    width: 20px;
+    margin-left: 8px;
+}
+
+.loactionlogo{
+    color: #D1D5DC;
+    margin-top: 5px;
+}
+
+.footer p:hover{
+    color: #42A922;
+    cursor: pointer;
+}
+
+.text{
+    color: #D1D5DC;
+    margin-left: 10px;
+    margin-top: 18px;
+    font-size: 12px;
+}
+
+.footer img{
+    width: 140px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.footerendtext{
+    color: #D1D5DC;
+    margin-left: 10px;
+    margin-top: 18px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+}
