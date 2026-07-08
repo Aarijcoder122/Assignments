@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f2f4f7;
+    font-family: Helvetica;
+}
+
+.facebooklogo{
+    width: 320px;
+    height: 106px;
+    margin-top: 180px;
+    margin-left: 120px;
+}
+
+.text{
+    font-size: 27px;
+     width: 500px;
+     margin-top: 0px;
+     margin-left: 150px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexboxcolumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputbox{
+    width: 420px;
+    height: 350px;
+    background-color: white;
+    margin-top: 120px;
+    margin-left: 60px;
+    border: white;
+    border-radius: 10px;
+}
+
+.email{
+    margin-top: 20px;
+    height: 50px;
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+}
+
+.email:focus{
+    border: 1px solid #0866ff;
+    outline: none;
+}
+
+.password{
+    margin-top: 10px;
+    height: 50px;
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+}
+
+.password:focus{
+    border: 1px solid #0866ff;
+    outline: none;
+}
+
+.email::placeholder{
+    color:gray;
+    font-size: 17px;
+}
+
+.password::placeholder{
+    color:gray;
+    font-size: 17px;
+}
+
+input{
+padding-left: 20px;
+}
+
+.loginbutton{
+    margin-top: 20px;
+    height: 50px;
+    width: 90%;
+    margin-left: 5%;
+    border:#0866ff; 
+    border-radius: 5px;
+    background-color: #0866ff;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.forgotpassword{
+    text-align: center;
+    color: #0866ff;
+    font-size: 14px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.forgotpassword:hover{
+    text-decoration: underline;
+}
+
+.simpleline{
+    width: 90%;
+    height: 1px;
+    background-color:#dddfe2;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.createacc{
+    color: white;
+    margin-top: 20px;
+    width: 193px;
+    height: 50px;
+    background-color: #42b72a;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 27%;
+    border: #42b72a;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.createacc:hover{
+    background-color: green;
+    outline: none;
+}
