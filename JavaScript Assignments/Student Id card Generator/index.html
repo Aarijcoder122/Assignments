@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Id card Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="idcard-box" id="idcard-box">
+        <h1>Student Id card Generator</h1>
+        <label class="namelabel">Name</label>
+        <input type="text" class="nameinputbox" id="nameinput"  placeholder="Enter your Name" >
+        <label class="emaillabel">Email</label>
+        <input type="email" class="emailinputbox" id="emailinput"  placeholder=" Enter your Email" >
+        <label class="Cniclabel">Cnic</label>
+        <input type="text" class="Cnicinputbox" id="Cnicinput" maxlength="13" placeholder="Enter your Cnic" >
+        <label class="Courselabel">Course</label>
+        <select  id="Courseinput" >
+            <option>Web Development</option>
+            <option>Agentic AI</option>
+            <option>Graphic Designing</option>
+        </select>
+        <button class="Submit-button" id="Submit-button"  >Sumbit Button</button>
+    </div>
+
+    <div class="valuebox" id="valuebox">
+        <h1>Form values</h1>
+        <p id="Namevalue"></p>
+        <p id="Emailvalue"></p>
+        <p id="Cnicvalue"></p>
+        <p id="Coursevalue"></p>
+        <button class="gobackbutton" id="go-back-button">Go back</button>
+    </div>
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.idcard-box{
+    width: 450px;
+    height: 500px;
+    background-color: antiquewhite;
+    margin: 50px auto;
+}
+
+h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.nameinputbox{
+    width: 95%;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 2.5%;
+}
+
+.emailinputbox{
+    width: 95%;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 2.5%;
+}
+
+.Cnicinputbox{
+    width: 95%;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 2.5%;
+}
+
+select{
+    width: 95%;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 2.5%;
+}
+
+.namelabel{
+    margin-left: 12px;
+    display: block;
+}
+
+.emaillabel{
+    margin-left: 12px;
+    margin-top: 10px;
+    display: block;
+}
+
+.Cniclabel{
+    margin-left: 12px;
+    margin-top: 10px;
+    display: block;
+    
+}
+
+.Courselabel{
+    margin-left: 12px;
+    margin-top: 10px;
+    display: block;
+}
+
+.Submit-button{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(80, 80, 212);
+    border: rgb(80, 80, 212);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.valuebox{
+    width: 450px;
+    height: 500px;
+    background-color: antiquewhite;
+    margin: 50px auto;
+}
+
+.gobackbutton{
+    display: block;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(80, 80, 212);
+    border: rgb(80, 80, 212);
+    border-radius: 10px;
+    cursor: pointer;
+}
