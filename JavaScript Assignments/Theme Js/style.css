@@ -1,0 +1,12 @@
+button{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+}
+
+body{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
