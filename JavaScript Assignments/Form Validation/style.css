@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form{
+    width: 400px;
+    height: 500px;
+    background-color:bisque;
+    display: block;
+    margin: 40px auto ;
+}
+
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#nameinput{
+    width: 96%;
+    height: 35px;
+    margin-left: 2%;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding-left: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#emailinput{
+    width: 96%;
+    height: 35px;
+    margin-left: 2%;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding-left: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#passwordinput {
+    width: 96%;
+    height: 35px;
+    margin-left: 2%;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding-left: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#Sumbitbutton{
+    display: block;
+    margin: 20px auto;
+    color: white;
+    background-color: rgb(79, 79, 197);
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: rgb(79, 79, 197) ;
+    cursor: pointer;
+}
