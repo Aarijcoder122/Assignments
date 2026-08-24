@@ -1,0 +1,58 @@
+body{
+  background-color: aquamarine;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+  display: block;
+  margin: 20px auto;
+  width: 500px;
+  height: 500px;
+  background-color: antiquewhite;
+}
+
+h1{
+  text-align: center;
+  padding-top: 50px;
+  color: rgb(24, 116, 24);
+}
+
+.displayflex-class{
+  display: flex;
+  flex-direction: row;
+}
+
+.Incr-button{
+  margin-left: 150px;
+  padding: 8px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.Decr-button{
+  margin-left: 10px;
+  padding: 8px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.Reset-button{
+  display: block;
+  margin: 30px auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
